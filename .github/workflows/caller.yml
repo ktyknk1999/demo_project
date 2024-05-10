@@ -1,0 +1,17 @@
+name: demo_caller
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  call-workflow:
+       uses: ktyknk1999/template_demo-new_repo/.github/workflows/first_action.yml@master
+  
+    # steps:
+    
+    #  call-workflow:
+    #    uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
