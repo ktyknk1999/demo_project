@@ -1,2 +1,2 @@
 # demo_project
-demo project for git course
+demo project for git course.
